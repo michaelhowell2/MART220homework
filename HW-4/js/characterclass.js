@@ -49,7 +49,7 @@ class Character {
     translate(this.x, this.y);
     // scaling based on facing direction
     scale(this.facing, 1);
-    // Center the image (when flipped, the center remains the same)
+    // Center the image 
     imageMode(CENTER);
     image(this.frames[this.currentFrame], 0, 0, this.w =70, this.h = 70);
     pop();
