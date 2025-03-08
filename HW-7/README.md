@@ -1,1 +1,1 @@
-had some troubles with this one but after a few hours of troubleshooting I found the issue was the names in the .txt files and the name in the string  such as  assets/txt/idle.txt. I also moved movement out of the class js.
+No issues this week. I moved some text around. I need to get in a habit of commenting them I think becasue when I start project on Tuesday I forget what was done by Saturday...I added sounds as required some times it might be too much when hit the mushroom 
