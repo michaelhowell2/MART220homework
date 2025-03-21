@@ -1,0 +1,10 @@
+assets/imgs/jackfree/png/Idle (1).png
+assets/imgs/jackfree/png/Idle (2).png
+assets/imgs/jackfree/png/Idle (3).png
+assets/imgs/jackfree/png/Idle (4).png
+assets/imgs/jackfree/png/Idle (5).png
+assets/imgs/jackfree/png/Jump (6).png
+assets/imgs/jackfree/png/Jump (7).png
+assets/imgs/jackfree/png/Idle (8).png
+assets/imgs/jackfree/png/Idle (9).png
+assets/imgs/jackfree/png/Idle (10).png
