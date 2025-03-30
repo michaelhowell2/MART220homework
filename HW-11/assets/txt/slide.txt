@@ -1,0 +1,10 @@
+assets/imgs/jackfree/png/Slide (1).png
+assets/imgs/jackfree/png/Slide (2).png
+assets/imgs/jackfree/png/Slide (3).png
+assets/imgs/jackfree/png/Slide (4).png
+assets/imgs/jackfree/png/Slide (5).png
+assets/imgs/jackfree/png/Slide (6).png
+assets/imgs/jackfree/png/Slide (7).png
+assets/imgs/jackfree/png/Slide (8).png
+assets/imgs/jackfree/png/Slide (9).png
+assets/imgs/jackfree/png/Slide (10).png

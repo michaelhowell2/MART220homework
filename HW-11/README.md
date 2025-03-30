@@ -1,0 +1,1 @@
+ This time around I added slide as my attack by pressing x. Win the game by smashing all the crates. Particle effects when smash crates and some tombstones. Still have skulls as good food taht adds health. Smash the 5 tombstones by sliding 3 times into them and win. Watch out for poison and crates grab skulls for health!
