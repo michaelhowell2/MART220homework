@@ -1,0 +1,1 @@
+This assignment was cool! I tried to put skins on everyshape but had a hard time making that work so I kept the easy ones on and did "normal material on others" I had difficulties make specularMaterial or ambientMaterial to work. It changed all my shapes black. Other than that I think my project hit all the required parameters.
