@@ -1,0 +1,14 @@
+newmtl sun_MAT
+Ni 1.6
+Ka 0 0 0
+Pm 0
+d 1.0
+Ke 0.0
+Kd 1.0 1.0 1.0
+bump sun_Normal.png
+map_Rd sun_roughness.png
+illum 7
+Ks 1 1 1
+Ns 16
+map_Kd sun_BaseColor.png
+

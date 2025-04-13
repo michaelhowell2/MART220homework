@@ -1,0 +1,35 @@
+newmtl earth_MAT
+Ni 1.6
+Ka 0 0 0
+Pm 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal earth/earth_MAT_normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness earth/earth_MAT_roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+Ns 16
+map_Kd earth/earth_MAT_baseColor.png
+newmtl clouds_MAT
+Ni 1.6
+Ka 0 0 0
+Pm 0
+d 1
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal earth/clouds_MAT_normal.png
+map_d earth/clouds_MAT_opacity.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness earth/clouds_MAT_roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+Ns 16
+map_Kd earth/clouds_MAT_baseColor.png
