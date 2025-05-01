@@ -1,0 +1,553 @@
+{
+  "0": {
+    "name": "Narration",
+    "text": "Neon rain falls over the Underdistrict. You are Cipher: a courier with a dangerous job tonight.",
+    "background": "street.png",
+    "sfx": "rain",
+    "next": 1
+  },
+  "1": {
+    "name": "Kael",
+    "text": "You're late. Got the guts for this run, or are you gonna freeze again?",
+    "expression": "cainneutral",
+    "background": "street.png",
+    "next": 2
+  },
+  "2": {
+    "name": "Vira",
+    "text": "NexCorp tightened security. We need a clean entry, no fireworks.",
+    "expression": "viraneutral",
+    "background": "street.png",
+    "next": 3
+  },
+  "3": {
+    "name": "You",
+    "text": "Who do you trust to get you in?",
+    "background": "street.png",
+    "choices": [
+      {
+        "text": "Trust Kael’s tech skills",
+        "next": 4,
+        "trust": { "kael": 10 }
+      },
+      {
+        "text": "Trust Vira’s inside knowledge",
+        "next": 5,
+        "trust": { "vira": 10 }
+      },
+      {
+        "text": "Go in alone",
+        "next": 6,
+        "trust": { "kael": -10, "vira": -10 }
+      }
+    ]
+  },
+  "4": {
+    "name": "Kael",
+    "text": "I'll short out their sensors. You just move when I say.",
+    "expression": "cainsmile",
+    "background": "street.png",
+    "next": 7
+  },
+  "5": {
+    "name": "Vira",
+    "text": "Follow my pathing exactly. One misstep and we fry.",
+    "expression": "viratense",
+    "background": "street.png",
+    "next": 7
+  },
+  "6": {
+    "name": "Narration",
+    "text": "You decide to slip in solo, trusting your instincts.",
+    "background": "street.png",
+    "next": 7
+  },
+  "7": {
+    "name": "Narration",
+    "text": "Inside NexCorp's outer perimeter, drones buzz overhead.",
+    "background": "street.png",
+    "sfx": "drone_hum",
+    "next": 8
+  },
+  "8": {
+    "name": "Narration",
+    "text": "You spot the data terminal. The chip's within reach.",
+    "background": "street.png",
+    "next": 9
+  },
+  "9": {
+    "name": "You",
+    "text": "Time to work.",
+    "background": "street.png",
+    "next": 10
+  },
+  "10": {
+    "name": "Narration",
+    "text": "Hack the security systems?",
+    "background": "street.png",
+    "sfx": "sparks",
+    "choices": [
+      {
+        "text": "Start hacking",
+        "next": 12
+      },
+      {
+        "text": "Sneak past manually",
+        "next": 14
+      }
+    ]
+  },
+  "11": {
+    "name": "Narration",
+    "text": "You boot your cyberdeck, running bypass scripts.",
+    "background": "street.png",
+    "next": 12
+  },
+  "12": {
+    "name": "Narration",
+    "text": "The systems blink out. Smooth as synth-butter.",
+    "background": "street.png",
+    "sfx": "sparks",
+    "next": 15
+  },
+  "13": {
+    "name": "Narration",
+    "text": "Your hack triggers an alarm. Time to improvise.",
+    "background": "street.png",
+    "sfx": "alarm",
+    "next": 15
+  },
+  "14": {
+    "name": "Narration",
+    "text": "You slip through shadows, barely avoiding patrols.",
+    "background": "street.png",
+    "next": 15
+  },
+  "15": {
+    "name": "Narration",
+    "text": "You snag the chip. Data pulses in your palm.",
+    "background": "street.png",
+    "next": 16
+  },
+  "16": {
+    "name": "Kael",
+    "text": "Got it? Good. Get out. Fast.",
+    "expression": "cainneutral",
+    "background": "street.png",
+    "next": 17
+  },
+  "17": {
+    "name": "Narration",
+    "text": "You sprint into the night, chip secured.",
+    "background": "street.png",
+    "sfx": "rain",
+    "next": 18
+  },
+  "18": {
+    "name": "Narration",
+    "text": "Warehouse 17. Time for the handoff.",
+    "background": "warehouse.png",
+    "next": 19
+  },
+  "19": {
+    "name": "Client",
+    "text": "The chip. Hand it over.",
+    "background": "warehouse.png",
+    "expression": "hooded_neutral",
+    "next": 20
+  },
+  "20": {
+    "name": "Narration",
+    "text": "Something's wrong. Footsteps. Drone buzz.",
+    "background": "warehouse.png",
+    "sfx": "drone_hum",
+    "next": 21
+  },
+  "21": {
+    "name": "Kael",
+    "text": "Ambush! Get down!",
+    "expression": "cainangry",
+    "background": "warehouse.png",
+    "sfx": "gunfire",
+    "next": 22
+  },
+  "22": {
+    "name": "Narration",
+    "text": "The Client was bait. NexCorp drones flood the room.",
+    "background": "warehouse.png",
+    "sfx": "drone_hum",
+    "next": 23
+  },
+  "23": {
+    "name": "You",
+    "text": "What's the move?",
+    "background": "warehouse.png",
+    "sfx": "sparks",
+    "choices": [
+      {
+        "text": "Fight through",
+        "next": 25,
+        "trust": { "vira": 10 }
+      },
+      {
+        "text": "Hack the drones",
+        "next": 28,
+        "trust": { "kael": 10 }
+      },
+      {
+        "text": "Run for it",
+        "next": 30,
+        "trust": { "kael": -10, "vira": -10 }
+      }
+    ]
+  },
+  "24": {
+    "name": "Narration",
+    "text": "You dive into the firefight.",
+    "background": "warehouse.png",
+    "sfx": "gunfire",
+    "next": 25
+  },
+  "25": {
+    "name": "Vira",
+    "text": "Good moves. Let's get out!",
+    "expression": "viraconfident",
+    "background": "warehouse.png",
+    "next": 31
+  },
+  "26": {
+    "name": "Narration",
+    "text": "You're wounded. Vira drags you out under fire.",
+    "background": "warehouse.png",
+    "sfx": "gunfire",
+    "next": 31
+  },
+  "27": {
+    "name": "Narration",
+    "text": "You plug into the net, scrambling the drones.",
+    "background": "warehouse.png",
+    "sfx": "sparks",
+    "next": 28
+  },
+  "28": {
+    "name": "Kael",
+    "text": "Nice hack. Let's vanish.",
+    "expression": "cainsmile",
+    "background": "warehouse.png",
+    "sfx": "sparks",
+    "next": 31
+  },
+  "29": {
+    "name": "Narration",
+    "text": "Your hack backfires. More drones join the fight.",
+    "background": "warehouse.png",
+    "sfx": "alarm",
+    "next": 31
+  },
+  "30": {
+    "name": "Narration",
+    "text": "You bolt into the streets, alone. The others barely keep up.",
+    "background": "street.png",
+    "sfx": "rain",
+    "next": 31
+  },
+  "31": {
+    "name": "Narration",
+    "text": "You regroup in an alley. The chip hums with encrypted power.",
+    "background": "street.png",
+    "sfx": "rain",
+    "next": 32
+  },
+  "32": {
+    "name": "Kael",
+    "text": "Whatever's on that chip... it's not just blackmail data.",
+    "expression": "cainneutral",
+    "background": "street.png",
+    "next": 33
+  },
+  "33": {
+    "name": "Vira",
+    "text": "It’s worse. I recognize the encryption signature.",
+    "expression": "viratense",
+    "background": "street.png",
+    "next": 34
+  },
+  "34": {
+    "name": "You",
+    "text": "Decrypt it?",
+    "background": "street.png",
+    "choices": [
+      {
+        "text": "Ask Kael to crack it",
+        "next": 35,
+        "trust": { "kael": 10 }
+      },
+      {
+        "text": "Let Vira handle it",
+        "next": 36,
+        "trust": { "vira": 10 }
+      },
+      {
+        "text": "Contact Zero (hacker-for-hire)",
+        "next": 37
+      }
+    ]
+  },
+  "35": {
+    "name": "Kael",
+    "text": "Alright. Cover me.",
+    "expression": "cainneutral",
+    "background": "street.png",
+    "next": 38
+  },
+  "36": {
+    "name": "Vira",
+    "text": "I know NexCorp architecture. I’ll take point.",
+    "expression": "viratense",
+    "background": "street.png",
+    "next": 38
+  },
+  "37": {
+    "name": "Narration",
+    "text": "You route a call through the darknet. A masked figure answers.",
+    "background": "street.png",
+    "next": 39
+  },
+  "38": {
+    "name": "Narration",
+    "text": "You jack in, cracking the encrypted layers...",
+    "background": "street.png",
+    "sfx": "sparks",
+    "next": 40
+  },
+  "39": {
+    "name": "Zero",
+    "text": "Zero here. Upload the fragment. Fast.",
+    "expression": "zero_neutral",
+    "background": "street.png",
+    "next": 40
+  },
+  "40": {
+    "name": "Narration",
+    "text": "Bit by bit, the secrets of the chip unfold.",
+    "background": "street.png",
+    "next": 41
+  },
+  "41": {
+    "name": "Narration",
+    "text": "It’s not a bribe file. It's **Project Echelon** AI tech designed to control human thought.",
+    "background": "street.png",
+    "next": 42
+  },
+  "42": {
+    "name": "Kael",
+    "text": "They could make people slaves... without them even knowing.",
+    "expression": "cainangry",
+    "background": "street.png",
+    "next": 43
+  },
+  "43": {
+    "name": "Vira",
+    "text": "We have to stop this. Before Solas activates Echelon.",
+    "expression": "viratense",
+    "background": "street.png",
+    "next": 44
+  },
+  "44": {
+    "name": "You",
+    "text": "What’s the move?",
+    "background": "street.png",
+    "choices": [
+      {
+        "text": "Leak Echelon to the public",
+        "next": 45,
+        "trust": { "kael": 15 }
+      },
+      {
+        "text": "Destroy Echelon completely",
+        "next": 46,
+        "trust": { "vira": 15 }
+      },
+      {
+        "text": "Sell it back to NexCorp",
+        "next": 47,
+        "trust": { "kael": -15, "vira": -15 }
+      }
+    ]
+  },
+  "45": {
+    "name": "Kael",
+    "text": "Smart. Light a fire under the whole city.",
+    "expression": "cainsmile",
+    "background": "street.png",
+    "next": 48
+  },
+  "46": {
+    "name": "Vira",
+    "text": "We erase it. Wipe them clean.",
+    "expression": "viraconfident",
+    "background": "street.png",
+    "next": 48
+  },
+  "47": {
+    "name": "Narration",
+    "text": "You prepare a deal with NexCorp's dark ops division.",
+    "background": "warehouse.png",
+    "next": 48
+  },
+  "48": {
+    "name": "Narration",
+    "text": "You approach the Underdistrict hub. It's time to end this...",
+    "background": "street.png",
+    "next": 49
+  },
+  "49": {
+    "name": "Narration",
+    "text": "A shadow blocks your path.",
+    "background": "street.png",
+    "next": 50
+  },
+  "50": {
+    "name": "Wisp",
+    "text": "Got a message. You’re not alone in this fight.",
+    "expression": "wisp_neutral",
+    "background": "street.png",
+    "next": 51
+  },
+  "51": {
+    "name": "Narration",
+    "text": "Wisp hands you a datashard You have the rebels and my support...",
+    "background": "street.png",
+    "next": 52
+  },
+  "52": {
+    "name": "Narration",
+    "text": "But NexCorp forces are closing fast.",
+    "background": "street.png",
+    "sfx": "drone_hum",
+    "next": 53
+  },
+  "53": {
+    "name": "You",
+    "text": "One last choice...",
+    "background": "street.png",
+    "choices": [
+      {
+        "text": "Confront Director Solas directly",
+        "next": 54
+      },
+      {
+        "text": "Sabotage Echelon remotely",
+        "next": 55
+      }
+    ]
+  },
+  "54": {
+    "name": "Narration",
+    "text": "You storm the NexCorp tower.",
+    "background": "energyplant.png",
+    "sfx": "gunfire",
+    "next": 56
+  },
+  "55": {
+    "name": "Narration",
+    "text": "You jack into the Nexus grid, ready to fry the system.",
+    "background": "energyplant.png",
+    "sfx": "sparks",
+    "next": 56
+  },
+  "56": {
+    "name": "Narration",
+    "text": "Inside NexCorp's heart, Director Solas waits.",
+    "background": "energyplant.png",
+    "next": 57
+  },
+  "57": {
+    "name": "Director Solas",
+    "text": "You're too late. Humanity needs order! Not chaos...",
+    "expression": "solasneutral",
+    "background": "energyplant.png",
+    "next": 58
+  },
+  "58": {
+    "name": "You",
+    "text": "Wrong. Humanity needs freedom.",
+    "background": "energyplant.png",
+    "next": 59
+  },
+  "59": {
+    "name": "Narration",
+    "text": "You make your final move...",
+    "background": "energyplant.png",
+    "next": 63
+  },
+  "63": {
+    "name": "Narration",
+    "text": "Your alliances shaped the city's fate. The path ahead reveals your legacy.",
+    "background": "street.png",
+    "sfx": "rain",
+    "next": null
+  },
+  "64": {
+    "name": "Freedom Requiem",
+    "text": "The lights of NexCorp blink out, one tower at a time. In the distance, a neon dawn rises over a city finally free.",
+    "background": "street.png",
+    "sfx": "rain",
+    "next": 67
+  },
+  "65": {
+    "name": "Ghost in the Circuit",
+    "text": "You vanish into the net, leaving your old life behind. Power hums at your fingertips. Was it worth the cost?",
+    "background": "street.png",
+    "sfx": "rain",
+    "next": 67
+  },
+  "66": {
+    "name": "City of Chains",
+    "text": "The city falls silent under NexCorp’s iron code. Thought, freedom, and rebellion...erased in a blink...",
+    "background": "street.png",
+    "sfx": "drone_hum",
+    "next": 67
+  },
+  "67": {
+    "name": "Narration",
+    "text": "Years later, legends of the Courier spark whispered hope in the backstreets.",
+    "background": "street.png",
+    "sfx": "rain",
+    "next": 68
+  },
+  "68": {
+    "name": "Narration",
+    "text": "Some say Cipher fought for freedom.",
+    "background": "street.png",
+    "next": 69
+  },
+  "69": {
+    "name": "Narration",
+    "text": "Some say Cipher seized power in secret.",
+    "background": "street.png",
+    "next": 70
+  },
+  "70": {
+    "name": "Narration",
+    "text": "Others say Cipher fell, and NexCorp rules without challenge.",
+    "background": "street.png",
+    "sfx": "drone_hum",
+    "next": 71
+  },
+  "71": {
+    "name": "Narration",
+    "text": "But the neon flickers. And rebellion...like light... never dies...",
+    "background": "street.png",
+    "sfx": "rain",
+    "next": 72
+  },
+  "72": {
+    "name": "The End",
+    "text": "Thank you for playing Neon Requiem.",
+    "background": "street.png",
+    "isEnding": true,
+    "instant": true,
+    "next": null
+  }
+}

@@ -1,0 +1,1 @@
+Final for MART 220 Neon Requiem. Nothing fancy here kind of cliche Cyberpunk stuff. It's kind of fun and whant to do more of this. I had lots of issues again and used GPT for troubleshooting and console logs. Assets were purchased or taken from Itch.io and Freesound.org for educatioal purpose.

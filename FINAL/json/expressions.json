@@ -1,0 +1,13 @@
+{
+  "cainneutral": "assets/imgs/sprite/cainneutral.png",
+  "cainangry": "assets/imgs/sprite/cainangry.png",
+  "cainsmile": "assets/imgs/sprite/cainsmile.png",
+  "viraneutral": "assets/imgs/sprite/viraneutral.png",
+  "viratense": "assets/imgs/sprite/viratense.png",
+  "viraconfident": "assets/imgs/sprite/viraconfident.png",
+  "merc_neutral": "assets/imgs/sprite/merc.png",
+  "hooded_neutral": "assets/imgs/sprite/shadow.png",
+  "wisp_neutral": "assets/imgs/sprite/wisp.png",
+  "zero_neutral": "assets/imgs/sprite/zero.png",
+  "solasneutral": "assets/imgs/sprite/Silas.png"
+}
